@@ -79,29 +79,6 @@ class TestLogin():
                 self.login.base_get_iamge()
                 raise
 
-        # try:
-        #     self.login.page_click_skip()
-        #     self.login.page_click_me()
-        #     self.login.page_click_go_login()
-        #             # allure.attach("描述：","输入用户名")
-        #     self.login.page_input_username(username)
-        #
-        #             # allure.attach("描述：", "输入密码")
-        #     self.login.page_input_password(pwd)
-        #
-        #     self.login.page_click_login_btn()
-        #             # toast--调用
-        #             # self.toast.page_click_login_btn()
-        #     assert nickname in self.login.page_get_self_name()
-        # except:
-        #     self.login.base_get_iamge()
-            # self.login.page_click_setting()
-            # self.login.page_drag_and_drop()
-            # self.login.page_click_loginout()
-            # self.login.page_click_loginout_ok()
-
-
-
 
 if __name__ == '__main__':
     pytest.main("-s test_login.py")
